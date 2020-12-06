@@ -1,0 +1,66 @@
+.container{
+  /* border: 1px solid black; */
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.flex-row-1,
+.flex-row-2,
+.flex-row-3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+
+.flex-row-1 {
+  background-image: url("./BlackJack/2.jpg");
+  background-position: center;
+  background-size: cover;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  color: #FFFF;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-row-1 div {
+  height: 420px;
+  /* border: 1px solid black; */
+  flex: 1;
+  padding: 10px;
+}
+
+.flex-row-2 {
+  background-color: #052939;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+}
+
+.flex-row-2 button {
+  margin-right: 5px;
+}
+
+.flex-row-2 div {
+  padding: 10px;
+  /* border: 1px solid black; */
+}
+
+table, th, td{
+  padding: 5px;
+  /* border: 2px solid black; */
+  background-color: #052939;
+  color: #FFFF;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+#Dealer-Box img,#Your-Box img{
+  margin:5px
+}
